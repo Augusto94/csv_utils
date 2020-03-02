@@ -4,7 +4,7 @@ from setuptools import find_packages
 
 setup(
     name='csv_utils',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/Augusto94/csv_utils',
     license='MIT',
     author='Augusto Lima',
