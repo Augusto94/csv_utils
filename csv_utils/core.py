@@ -1,4 +1,6 @@
+import boto3
 import csv
+import os
 
 from alive_progress import alive_bar
 
@@ -31,3 +33,13 @@ def list_to_csv(path_file, content, fieldnames=[]):
                     item = [item]
                 w.writerow(item)
                 bar()
+
+
+def read_from_s3(bucket_name, path_file):
+
+    bucket = boto3.resource('s3').Bucket(bucket_name)
+    filename = os.path.basename(path_file)
+    bucket.download_file(Filename=filename, Key=path_file)
+    content = csv_to_list(filename)
+    os.remove(filename)
+    return content
