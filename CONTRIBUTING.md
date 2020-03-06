@@ -19,9 +19,9 @@ Observe que temos um código de conduta; siga-o em todas as suas interações co
 
 Nosso compromisso
 
-No interesse de promover um ambiente aberto e acolhedor, nós, como
-colaboradores e mantenedores nos comprometemos em, através do nosso projeto, participar a
-nossa comunidade uma experiência livre de assédio para todos, independentemente da idade, do corpo
+No interesse de promover um ambiente aberto e acolhedor, nós, 
+como colaboradores e mantenedores, nos comprometemos a tornar a participação em nosso projeto e em nossa 
+comunidade uma experiência livre de assédio para todos, independentemente da idade, do corpo
 tamanho, deficiência, etnia, identidade e expressão de gênero, nível de experiência,
 nacionalidade, aparência pessoal, raça, religião ou identidade sexual e
 orientação.
